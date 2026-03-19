@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CapyBara Cafe — Da Nang, Vietnam</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <img src="assets/capy-logo.svg" alt="Capybara logo" class="nav-logo-img" />
+        CapyBara Cafe
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#visit">Visit</a></li>
+        <li><a href="#contact" class="btn-nav">Book a Table</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="hero-tag">Da Nang's Most Adorable Cafe</span>
+      <h1>Sip, Relax &amp;<br/>Cuddle a Capybara</h1>
+      <p>Come for the coffee. Stay for the capybaras.<br/>A one-of-a-kind experience in the heart of Da Nang.</p>
+      <div class="hero-btns">
+        <a href="#menu" class="btn btn-primary">See Our Menu</a>
+        <a href="#visit" class="btn btn-outline">Find Us</a>
+      </div>
+    </div>
+    <div class="hero-scroll">&#8595;</div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="container about-grid">
+      <div class="about-img-wrap">
+        <div class="about-img capy-img-1"></div>
+        <div class="about-badge">Est. 2024 · Da Nang</div>
+      </div>
+      <div class="about-text">
+        <span class="section-tag">Our Story</span>
+        <h2>Where Coffee Meets Capybaras</h2>
+        <p>Nestled in the vibrant Son Tra district of Da Nang, CapyBara Cafe is Vietnam's first cafe dedicated to the world's largest — and friendliest — rodents. Our resident capybaras live in a spacious, naturalistic habitat and love meeting guests over a cup of carefully crafted coffee.</p>
+        <p>We source all our beans from the Central Highlands and partner with local farms for our pastries and fresh fruit drinks. Every sip supports sustainable agriculture in Vietnam.</p>
+        <div class="about-stats">
+          <div class="stat"><span class="stat-num">8</span><span class="stat-label">Capybaras</span></div>
+          <div class="stat"><span class="stat-num">30+</span><span class="stat-label">Menu Items</span></div>
+          <div class="stat"><span class="stat-num">4.9★</span><span class="stat-label">Rating</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CAPYBARAS -->
+  <section class="section capys" id="capys">
+    <div class="container">
+      <span class="section-tag">Meet the Family</span>
+      <h2>Our Resident Capybaras</h2>
+      <p class="section-sub">Each of our capybaras has their own personality. Come say hi!</p>
+      <div class="capy-cards">
+        <div class="capy-card">
+          <div class="capy-avatar" style="background-color:#c8a96e;">🦔</div>
+          <h3>Bơ</h3>
+          <p>The cafe leader. Loves avocado and belly rubs. Will judge your latte art.</p>
+        </div>
+        <div class="capy-card">
+          <div class="capy-avatar" style="background-color:#a0c8a0;">🌿</div>
+          <h3>Lá</h3>
+          <p>The shy one. Prefers watermelon and will warm up to you eventually — worth the wait!</p>
+        </div>
+        <div class="capy-card">
+          <div class="capy-avatar" style="background-color:#e8b4a0;">🍑</div>
+          <h3>Đào</h3>
+          <p>The curious explorer. Always investigating guests' bags. Addicted to peaches.</p>
+        </div>
+        <div class="capy-card">
+          <div class="capy-avatar" style="background-color:#b8d4e8;">💧</div>
+          <h3>Mưa</h3>
+          <p>Loves the splash pool. Will get you wet. Absolutely no regrets. Zero.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section class="section menu" id="menu">
+    <div class="container">
+      <span class="section-tag">What We Serve</span>
+      <h2>Our Menu</h2>
+      <p class="section-sub">Inspired by Vietnamese flavors, crafted for every palate.</p>
+
+      <div class="menu-tabs">
+        <button class="tab-btn active" data-tab="drinks">Drinks</button>
+        <button class="tab-btn" data-tab="food">Food</button>
+        <button class="tab-btn" data-tab="specials">Capybara Specials</button>
+      </div>
+
+      <div class="menu-grid" id="menuGrid"></div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section gallery" id="gallery">
+    <div class="container">
+      <span class="section-tag">Moments</span>
+      <h2>Life at the Cafe</h2>
+      <p class="section-sub">Tag us on Instagram <strong>@capybaracafedanang</strong></p>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item g1"><span class="gallery-label">Morning pool time 🌅</span></div>
+      <div class="gallery-item g2"><span class="gallery-label">Bơ approves ✅</span></div>
+      <div class="gallery-item g3"><span class="gallery-label">Latte art day ☕</span></div>
+      <div class="gallery-item g4"><span class="gallery-label">Watermelon Friday 🍉</span></div>
+      <div class="gallery-item g5"><span class="gallery-label">The whole gang 🐾</span></div>
+      <div class="gallery-item g6"><span class="gallery-label">Sunset vibes 🌇</span></div>
+    </div>
+  </section>
+
+  <!-- VISIT -->
+  <section class="section visit" id="visit">
+    <div class="container visit-grid">
+      <div class="visit-info">
+        <span class="section-tag">Plan Your Visit</span>
+        <h2>Come Find Us</h2>
+
+        <div class="info-block">
+          <div class="info-icon">📍</div>
+          <div>
+            <strong>Address</strong>
+            <p>123 Nguyễn Văn Linh, Phước Mỹ,<br/>Sơn Trà, Đà Nẵng 550000, Vietnam</p>
+          </div>
+        </div>
+
+        <div class="info-block">
+          <div class="info-icon">🕐</div>
+          <div>
+            <strong>Opening Hours</strong>
+            <p>Monday – Friday: 8:00 AM – 9:00 PM<br/>Saturday – Sunday: 7:30 AM – 10:00 PM</p>
+          </div>
+        </div>
+
+        <div class="info-block">
+          <div class="info-icon">📞</div>
+          <div>
+            <strong>Phone</strong>
+            <p>+84 236 123 4567</p>
+          </div>
+        </div>
+
+        <div class="info-block">
+          <div class="info-icon">💡</div>
+          <div>
+            <strong>Tips</strong>
+            <p>Book weekends in advance · Bring close-toed shoes for the habitat · No flash photography please</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="visit-map">
+        <div class="map-placeholder">
+          <div class="map-pin">📍</div>
+          <p>CapyBara Cafe<br/><small>Sơn Trà, Đà Nẵng</small></p>
+          <a href="https://maps.google.com/?q=Son+Tra+Da+Nang+Vietnam" target="_blank" rel="noopener" class="btn btn-primary">Open in Google Maps</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / BOOKING -->
+  <section class="section contact" id="contact">
+    <div class="container contact-wrap">
+      <span class="section-tag">Reservations</span>
+      <h2>Book a Table</h2>
+      <p class="section-sub">Reserve your spot to guarantee time with the capybaras!</p>
+      <form class="booking-form" id="bookingForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" placeholder="Nguyen" required />
+          </div>
+          <div class="form-group">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" placeholder="Van A" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" placeholder="+84 ..." />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="date">Date</label>
+            <input type="date" id="date" required />
+          </div>
+          <div class="form-group">
+            <label for="guests">Guests</label>
+            <select id="guests">
+              <option value="1">1 person</option>
+              <option value="2" selected>2 people</option>
+              <option value="3">3 people</option>
+              <option value="4">4 people</option>
+              <option value="5+">5+ people</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group full">
+          <label for="notes">Special Requests</label>
+          <textarea id="notes" rows="3" placeholder="Allergies, celebrations, accessibility needs..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">Confirm Reservation</button>
+        <div class="form-success" id="formSuccess">
+          🎉 Booking received! We'll confirm by email within 2 hours. See you soon!
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">CapyBara Cafe</span>
+        <p>Da Nang's friendliest corner. Come as a stranger, leave as family — the capybara kind.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">ig</a>
+          <a href="#" aria-label="TikTok">tt</a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#visit">Visit</a></li>
+          <li><a href="#contact">Book a Table</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>123 Nguyễn Văn Linh<br/>Sơn Trà, Đà Nẵng<br/>Vietnam</p>
+        <p>+84 236 123 4567</p>
+        <p>hello@capybaracafe.vn</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 CapyBara Cafe · Made with ☕ &amp; 🐾 in Da Nang</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
