@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Body -->
+  <ellipse cx="32" cy="40" rx="22" ry="14" fill="#C8A96E"/>
+  <!-- Head -->
+  <ellipse cx="32" cy="24" rx="14" ry="12" fill="#C8A96E"/>
+  <!-- Ears -->
+  <ellipse cx="20" cy="15" rx="5" ry="7" fill="#C8A96E"/>
+  <ellipse cx="44" cy="15" rx="5" ry="7" fill="#C8A96E"/>
+  <ellipse cx="20" cy="15" rx="3" ry="5" fill="#D4A0A0"/>
+  <ellipse cx="44" cy="15" rx="3" ry="5" fill="#D4A0A0"/>
+  <!-- Eyes -->
+  <circle cx="26" cy="22" r="3" fill="#2C1A0E"/>
+  <circle cx="38" cy="22" r="3" fill="#2C1A0E"/>
+  <circle cx="27" cy="21" r="1" fill="white"/>
+  <circle cx="39" cy="21" r="1" fill="white"/>
+  <!-- Nose -->
+  <ellipse cx="32" cy="29" rx="5" ry="3" fill="#8B6245"/>
+  <!-- Nostrils -->
+  <circle cx="30" cy="29" r="1.2" fill="#5C3A1E"/>
+  <circle cx="34" cy="29" r="1.2" fill="#5C3A1E"/>
+  <!-- Smile -->
+  <path d="M28 33 Q32 37 36 33" stroke="#5C3A1E" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- Legs -->
+  <rect x="12" y="48" width="8" height="10" rx="4" fill="#B8965C"/>
+  <rect x="44" y="48" width="8" height="10" rx="4" fill="#B8965C"/>
+  <rect x="20" y="50" width="8" height="8" rx="4" fill="#B8965C"/>
+  <rect x="36" y="50" width="8" height="8" rx="4" fill="#B8965C"/>
+  <!-- Coffee cup accessory -->
+  <rect x="46" y="34" width="10" height="10" rx="2" fill="#E8833A"/>
+  <path d="M56 37 Q60 37 60 41 Q60 44 56 44" stroke="#E8833A" stroke-width="2" fill="none"/>
+  <rect x="47" y="35" width="8" height="2" rx="1" fill="white" opacity="0.6"/>
+</svg>
